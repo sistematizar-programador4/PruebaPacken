@@ -1,4 +1,4 @@
-React Native app prueba Packen [![APK](https://1.bp.blogspot.com/-HZGGTdD2niI/U2KlyCpOVnI/AAAAAAAABzI/bavDJBFSo-Q/s1600/apk-icon.jpg)](https://github.com/sindresorhus/awesome#readme)
+React Native app prueba Packen [![APK](https://1.bp.blogspot.com/-HZGGTdD2niI/U2KlyCpOVnI/AAAAAAAABzI/bavDJBFSo-Q/s1600/apk-icon.jpg | width=100)](https://github.com/sindresorhus/awesome#readme)
 ====
 Este repositorio contiene la prueba dejada el dia viernes 07 de febrero del año 2020, el enunciado y puntos ha desarrollar de la prueba es:
 Tiendas “El Baratón” necesita un e-commerce para expandir sus servicios, para eso don Pepe (propietario de la tienda) ha provisto de los siguientes requerimientos: 
