@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { connect } from 'react-redux';
 import {
 	View,
 	Text,
@@ -8,13 +8,13 @@ import {
   ScrollView,
   Button
 } from 'react-native';
-
+import { emptyCart } from '../../actions/cart.actions';
 import CartItems  from './cartItems.component';
 // import CustomerForm from './CustomerForm.component';
 
 class CheckoutItems extends Component {  
   render() {
-    const { cartItems, navigation, cartTotal } = this.props;
+    const { cartItems } = this.props;
     return (
       <View style={styles.container}>
             <View style={styles.annouc}>
@@ -30,7 +30,7 @@ class CheckoutItems extends Component {
     		</View>
        		<View style={styles.custForm}>
                 <ScrollView>
-                <Button style={{ alignSelf: 'auto'}} title="Buy"/>  
+                <Button style={{ alignSelf: 'auto'}} onPress={()=>this.props.emptyCart()} title="Buy"/>  
                 </ScrollView> 
         	</View>
        </View>
@@ -71,4 +71,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default CheckoutItems;
+export default connect(null,{emptyCart})(CheckoutItems);

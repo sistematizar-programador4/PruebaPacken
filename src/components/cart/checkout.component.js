@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Button } from "react-native";
-
 import CheckoutItems from '../cart/checkoutItems.component';
 import Cart from "../cart/cart.component";
 

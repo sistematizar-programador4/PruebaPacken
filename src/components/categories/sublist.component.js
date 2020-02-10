@@ -36,7 +36,7 @@ class CategoriesSubList extends Component {
     }else{
         return (
             <Icon
-                name="restaurant"
+                name="search"
                 size={18}
                 onPress={() => this.props.navigation.navigate("productList",{sublevel_id: item.id,category_name: item.name})}
             />

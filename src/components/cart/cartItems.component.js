@@ -3,8 +3,6 @@ import {
     View, 
     Text,
     StyleSheet,
-    TouchableOpacity,
-    Alert 
 } from 'react-native';
 import { Icon } from "react-native-elements";
 
